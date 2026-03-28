@@ -1,0 +1,107 @@
+body {
+  font-family: Raleway, sans-serif;
+  background: #f5f7fb;
+}
+
+.mt--2 {
+  margin-top: -0.5rem !important;
+}
+
+.hr-dotted {
+  border-top: 1px dotted;
+  opacity: .25;
+}
+
+/* Navbar */
+.navbar-light .navbar-nav .nav-link {
+  background-color: #f5f7fb !important;
+  color: #0b1e3b !important;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ff8c00 !important;
+}
+
+/* Icon Feature */
+.feature-icon-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #0b1e3b;
+  border-radius: 100%;
+}
+
+/* Social Media Button */
+.btn-social-media {
+  color: #0b1e3b;
+  background-color: #d6dde9;
+  border-color: #d6dde9;
+  width: 2rem;
+  height: 2rem;
+  padding: 1.2rem;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.btn-social-media:hover {
+  color: #fff;
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+}
+
+/* Primary Button */
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ff8c00;
+  --bs-btn-border-color: #ff8c00;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #e67600;
+  --bs-btn-hover-border-color: #e67600;
+  --bs-btn-focus-shadow-rgb: 255, 140, 0;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #e67600;
+  --bs-btn-active-border-color: #e67600;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #ff8c00;
+  --bs-btn-disabled-border-color: #ff8c00;
+}
+
+/* Utilities */
+.bg-primary {
+  background-color: #0b1e3b !important;
+}
+
+.text-primary {
+  color: #ff8c00 !important;
+}
+
+/* Footer */
+.footer .copyright a {
+  color: #ff8c00;
+  text-decoration: none;
+}
+
+.footer .copyright a:hover {
+  color: #e67600;
+}
+
+.footer .link a {
+  color: #0b1e3b;
+  text-decoration: none;
+}
+
+.footer .link a:hover {
+  color: #ff8c00;
+}
+``
